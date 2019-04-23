@@ -7,13 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2789601C06DF0D8247D5C800 /* libPods-commonPods-HFSDK-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F23EE26897379DDFC5058F /* libPods-commonPods-HFSDK-Test.a */; };
 		DD586923226F123D00C6A6BC /* HFSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DD586921226F123D00C6A6BC /* HFSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD58692C226F128000C6A6BC /* UIView+HFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58692A226F128000C6A6BC /* UIView+HFScreen.m */; };
+		DD58692D226F128000C6A6BC /* UIView+HFScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = DD58692B226F128000C6A6BC /* UIView+HFScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD586931226F128600C6A6BC /* HFTool.h in Headers */ = {isa = PBXBuildFile; fileRef = DD58692F226F128600C6A6BC /* HFTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD586932226F128600C6A6BC /* HFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD586930226F128600C6A6BC /* HFTool.m */; };
+		DD586938226F128D00C6A6BC /* HFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD586934226F128D00C6A6BC /* HFNetworkReachabilityManager.m */; };
+		DD586939226F128D00C6A6BC /* HFNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD586935226F128D00C6A6BC /* HFNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD58693A226F128D00C6A6BC /* HFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD586936226F128D00C6A6BC /* HFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD58693B226F128D00C6A6BC /* HFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD586937226F128D00C6A6BC /* HFNetworkManager.m */; };
+		DD586941226F12B900C6A6BC /* HFLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD58693D226F12B900C6A6BC /* HFLaunchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD586942226F12B900C6A6BC /* HFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58693E226F12B900C6A6BC /* HFWebViewController.m */; };
+		DD586943226F12B900C6A6BC /* HFWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD58693F226F12B900C6A6BC /* HFWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD586944226F12B900C6A6BC /* HFLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD586940226F12B900C6A6BC /* HFLaunchViewController.m */; };
+		DD58694D226F154F00C6A6BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58694C226F154F00C6A6BC /* AppDelegate.m */; };
+		DD586950226F154F00C6A6BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58694F226F154F00C6A6BC /* ViewController.m */; };
+		DD586953226F154F00C6A6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD586951226F154F00C6A6BC /* Main.storyboard */; };
+		DD586955226F155000C6A6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD586954226F155000C6A6BC /* Assets.xcassets */; };
+		DD586958226F155000C6A6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD586956226F155000C6A6BC /* LaunchScreen.storyboard */; };
+		DD58695B226F155000C6A6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58695A226F155000C6A6BC /* main.m */; };
+		DD58695F226F165700C6A6BC /* HFSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD58691E226F123D00C6A6BC /* HFSDK.framework */; };
+		DD586960226F165700C6A6BC /* HFSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD58691E226F123D00C6A6BC /* HFSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD586966226F174B00C6A6BC /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD586965226F174B00C6A6BC /* AAAViewController.m */; };
+		EDA3780BAA67D98DC488FFEE /* libPods-commonPods-HFSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7892D101040A66B49833746 /* libPods-commonPods-HFSDK.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DD586961226F165700C6A6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD586915226F123D00C6A6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD58691D226F123D00C6A6BC;
+			remoteInfo = HFSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD586963226F165800C6A6BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD586960226F165700C6A6BC /* HFSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0D15608CFEB6A371A9FBD618 /* Pods-commonPods-HFSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonPods-HFSDK.release.xcconfig"; path = "Target Support Files/Pods-commonPods-HFSDK/Pods-commonPods-HFSDK.release.xcconfig"; sourceTree = "<group>"; };
+		66F23EE26897379DDFC5058F /* libPods-commonPods-HFSDK-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-commonPods-HFSDK-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7829FF5C44673D3BD393463B /* Pods-commonPods-HFSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonPods-HFSDK.debug.xcconfig"; path = "Target Support Files/Pods-commonPods-HFSDK/Pods-commonPods-HFSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		8A4136B83240C047A6143A3D /* Pods-commonPods-HFSDK-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonPods-HFSDK-Test.release.xcconfig"; path = "Target Support Files/Pods-commonPods-HFSDK-Test/Pods-commonPods-HFSDK-Test.release.xcconfig"; sourceTree = "<group>"; };
 		DD58691E226F123D00C6A6BC /* HFSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD586921226F123D00C6A6BC /* HFSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFSDK.h; sourceTree = "<group>"; };
 		DD586922226F123D00C6A6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD58692A226F128000C6A6BC /* UIView+HFScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HFScreen.m"; sourceTree = "<group>"; };
+		DD58692B226F128000C6A6BC /* UIView+HFScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HFScreen.h"; sourceTree = "<group>"; };
+		DD58692F226F128600C6A6BC /* HFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTool.h; sourceTree = "<group>"; };
+		DD586930226F128600C6A6BC /* HFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTool.m; sourceTree = "<group>"; };
+		DD586934226F128D00C6A6BC /* HFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DD586935226F128D00C6A6BC /* HFNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFNetworkManager.h; sourceTree = "<group>"; };
+		DD586936226F128D00C6A6BC /* HFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DD586937226F128D00C6A6BC /* HFNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNetworkManager.m; sourceTree = "<group>"; };
+		DD58693D226F12B900C6A6BC /* HFLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFLaunchViewController.h; sourceTree = "<group>"; };
+		DD58693E226F12B900C6A6BC /* HFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFWebViewController.m; sourceTree = "<group>"; };
+		DD58693F226F12B900C6A6BC /* HFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFWebViewController.h; sourceTree = "<group>"; };
+		DD586940226F12B900C6A6BC /* HFLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFLaunchViewController.m; sourceTree = "<group>"; };
+		DD586949226F154F00C6A6BC /* HFSDK-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HFSDK-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD58694B226F154F00C6A6BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD58694C226F154F00C6A6BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD58694E226F154F00C6A6BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD58694F226F154F00C6A6BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD586952226F154F00C6A6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD586954226F155000C6A6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD586957226F155000C6A6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD586959226F155000C6A6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD58695A226F155000C6A6BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD586964226F174B00C6A6BC /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
+		DD586965226F174B00C6A6BC /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
+		E75ED4102655AD1A5A1B5112 /* Pods-commonPods-HFSDK-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonPods-HFSDK-Test.debug.xcconfig"; path = "Target Support Files/Pods-commonPods-HFSDK-Test/Pods-commonPods-HFSDK-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		F7892D101040A66B49833746 /* libPods-commonPods-HFSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-commonPods-HFSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +98,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA3780BAA67D98DC488FFEE /* libPods-commonPods-HFSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD586946226F154F00C6A6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2789601C06DF0D8247D5C800 /* libPods-commonPods-HFSDK-Test.a in Frameworks */,
+				DD58695F226F165700C6A6BC /* HFSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D62864D9BBEAFA7CB7802E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7829FF5C44673D3BD393463B /* Pods-commonPods-HFSDK.debug.xcconfig */,
+				0D15608CFEB6A371A9FBD618 /* Pods-commonPods-HFSDK.release.xcconfig */,
+				E75ED4102655AD1A5A1B5112 /* Pods-commonPods-HFSDK-Test.debug.xcconfig */,
+				8A4136B83240C047A6143A3D /* Pods-commonPods-HFSDK-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA9F4C5D513DA3643AC1CF6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7892D101040A66B49833746 /* libPods-commonPods-HFSDK.a */,
+				66F23EE26897379DDFC5058F /* libPods-commonPods-HFSDK-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD586914226F123D00C6A6BC = {
 			isa = PBXGroup;
 			children = (
 				DD586920226F123D00C6A6BC /* HFSDK */,
+				DD58694A226F154F00C6A6BC /* HFSDK-Test */,
 				DD58691F226F123D00C6A6BC /* Products */,
+				19D62864D9BBEAFA7CB7802E /* Pods */,
+				CA9F4C5D513DA3643AC1CF6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				DD58691E226F123D00C6A6BC /* HFSDK.framework */,
+				DD586949226F154F00C6A6BC /* HFSDK-Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +158,71 @@
 			isa = PBXGroup;
 			children = (
 				DD586921226F123D00C6A6BC /* HFSDK.h */,
+				DD58693C226F12B900C6A6BC /* ViewController */,
+				DD586933226F128D00C6A6BC /* NetworkManager */,
+				DD58692E226F128600C6A6BC /* HFTool */,
+				DD586929226F128000C6A6BC /* Extension */,
 				DD586922226F123D00C6A6BC /* Info.plist */,
 			);
 			path = HFSDK;
+			sourceTree = "<group>";
+		};
+		DD586929226F128000C6A6BC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD58692A226F128000C6A6BC /* UIView+HFScreen.m */,
+				DD58692B226F128000C6A6BC /* UIView+HFScreen.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DD58692E226F128600C6A6BC /* HFTool */ = {
+			isa = PBXGroup;
+			children = (
+				DD58692F226F128600C6A6BC /* HFTool.h */,
+				DD586930226F128600C6A6BC /* HFTool.m */,
+			);
+			path = HFTool;
+			sourceTree = "<group>";
+		};
+		DD586933226F128D00C6A6BC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD586936226F128D00C6A6BC /* HFNetworkReachabilityManager.h */,
+				DD586934226F128D00C6A6BC /* HFNetworkReachabilityManager.m */,
+				DD586935226F128D00C6A6BC /* HFNetworkManager.h */,
+				DD586937226F128D00C6A6BC /* HFNetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		DD58693C226F12B900C6A6BC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD58693D226F12B900C6A6BC /* HFLaunchViewController.h */,
+				DD586940226F12B900C6A6BC /* HFLaunchViewController.m */,
+				DD58693E226F12B900C6A6BC /* HFWebViewController.m */,
+				DD58693F226F12B900C6A6BC /* HFWebViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DD58694A226F154F00C6A6BC /* HFSDK-Test */ = {
+			isa = PBXGroup;
+			children = (
+				DD58694B226F154F00C6A6BC /* AppDelegate.h */,
+				DD58694C226F154F00C6A6BC /* AppDelegate.m */,
+				DD58694E226F154F00C6A6BC /* ViewController.h */,
+				DD58694F226F154F00C6A6BC /* ViewController.m */,
+				DD586964226F174B00C6A6BC /* AAAViewController.h */,
+				DD586965226F174B00C6A6BC /* AAAViewController.m */,
+				DD586951226F154F00C6A6BC /* Main.storyboard */,
+				DD586954226F155000C6A6BC /* Assets.xcassets */,
+				DD586956226F155000C6A6BC /* LaunchScreen.storyboard */,
+				DD586959226F155000C6A6BC /* Info.plist */,
+				DD58695A226F155000C6A6BC /* main.m */,
+			);
+			path = "HFSDK-Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +232,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD586941226F12B900C6A6BC /* HFLaunchViewController.h in Headers */,
+				DD586939226F128D00C6A6BC /* HFNetworkManager.h in Headers */,
 				DD586923226F123D00C6A6BC /* HFSDK.h in Headers */,
+				DD58693A226F128D00C6A6BC /* HFNetworkReachabilityManager.h in Headers */,
+				DD58692D226F128000C6A6BC /* UIView+HFScreen.h in Headers */,
+				DD586931226F128600C6A6BC /* HFTool.h in Headers */,
+				DD586943226F12B900C6A6BC /* HFWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD586926226F123D00C6A6BC /* Build configuration list for PBXNativeTarget "HFSDK" */;
 			buildPhases = (
+				3547BB78288A53EEE93A365C /* [CP] Check Pods Manifest.lock */,
 				DD586919226F123D00C6A6BC /* Headers */,
 				DD58691A226F123D00C6A6BC /* Sources */,
 				DD58691B226F123D00C6A6BC /* Frameworks */,
 				DD58691C226F123D00C6A6BC /* Resources */,
+				A50C816E29848125749CC610 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +264,27 @@
 			productName = HFSDK;
 			productReference = DD58691E226F123D00C6A6BC /* HFSDK.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		DD586948226F154F00C6A6BC /* HFSDK-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD58695C226F155000C6A6BC /* Build configuration list for PBXNativeTarget "HFSDK-Test" */;
+			buildPhases = (
+				2FF261045DCDCB01D2CC4F6D /* [CP] Check Pods Manifest.lock */,
+				DD586945226F154F00C6A6BC /* Sources */,
+				DD586946226F154F00C6A6BC /* Frameworks */,
+				DD586947226F154F00C6A6BC /* Resources */,
+				3DFEC8AA33062057105AE962 /* [CP] Copy Pods Resources */,
+				DD586963226F165800C6A6BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD586962226F165700C6A6BC /* PBXTargetDependency */,
+			);
+			name = "HFSDK-Test";
+			productName = "HFSDK-Test";
+			productReference = DD586949226F154F00C6A6BC /* HFSDK-Test.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +298,9 @@
 					DD58691D226F123D00C6A6BC = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					DD586948226F154F00C6A6BC = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = DD586918226F123D00C6A6BC /* Build configuration list for PBXProject "HFSDK" */;
@@ -104,6 +309,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DD586914226F123D00C6A6BC;
 			productRefGroup = DD58691F226F123D00C6A6BC /* Products */;
@@ -111,6 +317,7 @@
 			projectRoot = "";
 			targets = (
 				DD58691D226F123D00C6A6BC /* HFSDK */,
+				DD586948226F154F00C6A6BC /* HFSDK-Test */,
 			);
 		};
 /* End PBXProject section */
@@ -123,17 +330,162 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD586947226F154F00C6A6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD586958226F155000C6A6BC /* LaunchScreen.storyboard in Resources */,
+				DD586955226F155000C6A6BC /* Assets.xcassets in Resources */,
+				DD586953226F154F00C6A6BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FF261045DCDCB01D2CC4F6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-commonPods-HFSDK-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3547BB78288A53EEE93A365C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-commonPods-HFSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DFEC8AA33062057105AE962 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-commonPods-HFSDK-Test/Pods-commonPods-HFSDK-Test-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-commonPods-HFSDK-Test/Pods-commonPods-HFSDK-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50C816E29848125749CC610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-commonPods-HFSDK/Pods-commonPods-HFSDK-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-commonPods-HFSDK/Pods-commonPods-HFSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD58691A226F123D00C6A6BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD58693B226F128D00C6A6BC /* HFNetworkManager.m in Sources */,
+				DD586944226F12B900C6A6BC /* HFLaunchViewController.m in Sources */,
+				DD586942226F12B900C6A6BC /* HFWebViewController.m in Sources */,
+				DD58692C226F128000C6A6BC /* UIView+HFScreen.m in Sources */,
+				DD586932226F128600C6A6BC /* HFTool.m in Sources */,
+				DD586938226F128D00C6A6BC /* HFNetworkReachabilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD586945226F154F00C6A6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD586966226F174B00C6A6BC /* AAAViewController.m in Sources */,
+				DD586950226F154F00C6A6BC /* ViewController.m in Sources */,
+				DD58695B226F155000C6A6BC /* main.m in Sources */,
+				DD58694D226F154F00C6A6BC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD586962226F165700C6A6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD58691D226F123D00C6A6BC /* HFSDK */;
+			targetProxy = DD586961226F165700C6A6BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD586951226F154F00C6A6BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD586952226F154F00C6A6BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD586956226F155000C6A6BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD586957226F155000C6A6BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD586924226F123D00C6A6BC /* Debug */ = {
@@ -256,6 +608,7 @@
 		};
 		DD586927226F123D00C6A6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7829FF5C44673D3BD393463B /* Pods-commonPods-HFSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -266,11 +619,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HFSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = HeartlessSoy.HFSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -280,6 +636,7 @@
 		};
 		DD586928226F123D00C6A6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D15608CFEB6A371A9FBD618 /* Pods-commonPods-HFSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -290,14 +647,55 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HFSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = HeartlessSoy.HFSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD58695D226F155000C6A6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75ED4102655AD1A5A1B5112 /* Pods-commonPods-HFSDK-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTZ359D369;
+				INFOPLIST_FILE = "HFSDK-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HeartlessSoy.HFSDK-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD58695E226F155000C6A6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4136B83240C047A6143A3D /* Pods-commonPods-HFSDK-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTZ359D369;
+				INFOPLIST_FILE = "HFSDK-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HeartlessSoy.HFSDK-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -319,6 +717,15 @@
 			buildConfigurations = (
 				DD586927226F123D00C6A6BC /* Debug */,
 				DD586928226F123D00C6A6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD58695C226F155000C6A6BC /* Build configuration list for PBXNativeTarget "HFSDK-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD58695D226F155000C6A6BC /* Debug */,
+				DD58695E226F155000C6A6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char HFSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HFSDK/PublicHeader.h>
 
-
+#import "HFTool.h"
+#import "HFLaunchViewController.h"
+#import "HFWebViewController.h"
+#import "HFNetworkManager.h"
+#import "HFNetworkReachabilityManager.h"
+#import "UIView+HFScreen.h"
